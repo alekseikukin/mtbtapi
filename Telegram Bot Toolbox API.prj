@@ -1,0 +1,236 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration file="G:\My Drive\matlab_prog\telegram_bot_toolbox\Telegram Bot Toolbox API.prj" location="G:\My Drive\matlab_prog\telegram_bot_toolbox" name="Telegram Bot Toolbox API" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>Telegram Bot Toolbox API</param.appname>
+    <param.authnamewatermark>Aleksei Kukin</param.authnamewatermark>
+    <param.email>aleksey.kukin@mail.huji.ac.il</param.email>
+    <param.company>HUJI</param.company>
+    <param.summary>The Telegram Bot Toolbox API created for developers keen on building bots for Telegram.</param.summary>
+    <param.description>Each bot is given a unique authentication token when it is created. The token looks something like 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11. You can learn about obtaining tokens and generating new ones in https://core.telegram.org/bots/api</param.description>
+    <param.screenshot>${PROJECT_ROOT}\pic.jpg</param.screenshot>
+    <param.version>1.002</param.version>
+    <param.output>${PROJECT_ROOT}\Telegram Bot Toolbox API.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid>b25e7718-9a38-4523-bf09-fc0b7434ed1b</param.guid>
+    <param.exclude.filters />
+    <param.exclude.pcodedmfiles>true</param.exclude.pcodedmfiles>
+    <param.examples />
+    <param.demosxml />
+    <param.apps />
+    <param.registered.apps />
+    <param.docs />
+    <param.getting.started.guide />
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <param.exported.on.package>true</param.exported.on.package>
+    <param.required.addons />
+    <param.matlab.project.id />
+    <param.matlab.project.name />
+    <param.release.start>R2014b</param.release.start>
+    <param.release.end>latest</param.release.end>
+    <param.release.current.only>false</param.release.current.only>
+    <param.compatiblity.windows>true</param.compatiblity.windows>
+    <param.compatiblity.macos>true</param.compatiblity.macos>
+    <param.compatiblity.linux>true</param.compatiblity.linux>
+    <param.compatiblity.matlabonline>true</param.compatiblity.matlabonline>
+    <param.installation.map />
+    <param.additional.sw.names />
+    <param.additional.sw.licenses />
+    <param.additional.sw.win.url />
+    <param.additional.sw.mac.url />
+    <param.additional.sw.linux.url />
+    <unset>
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.exclude.filters />
+      <param.exclude.pcodedmfiles />
+      <param.examples />
+      <param.demosxml />
+      <param.apps />
+      <param.registered.apps />
+      <param.docs />
+      <param.getting.started.guide />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+      <param.required.addons />
+      <param.matlab.project.id />
+      <param.matlab.project.name />
+      <param.release.current.only />
+      <param.compatiblity.windows />
+      <param.compatiblity.macos />
+      <param.compatiblity.linux />
+      <param.compatiblity.matlabonline />
+      <param.installation.map />
+      <param.additional.sw.names />
+      <param.additional.sw.licenses />
+      <param.additional.sw.win.url />
+      <param.additional.sw.mac.url />
+      <param.additional.sw.linux.url />
+    </unset>
+    <fileset.rootdir>
+      <file>${PROJECT_ROOT}</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}\.gitattributes</file>
+      <file>${PROJECT_ROOT}\.gitignore</file>
+      <file>${PROJECT_ROOT}\Animation_T.m</file>
+      <file>${PROJECT_ROOT}\Audio_T.m</file>
+      <file>${PROJECT_ROOT}\BotCommand_T.m</file>
+      <file>${PROJECT_ROOT}\CallbackQuery_T.m</file>
+      <file>${PROJECT_ROOT}\Chat_T.m</file>
+      <file>${PROJECT_ROOT}\ChatMember_T.m</file>
+      <file>${PROJECT_ROOT}\ChatPermissions_T.m</file>
+      <file>${PROJECT_ROOT}\ChatPhoto_T.m</file>
+      <file>${PROJECT_ROOT}\ChosenInlineResult_T.m</file>
+      <file>${PROJECT_ROOT}\Contact_T.m</file>
+      <file>${PROJECT_ROOT}\demos.xml</file>
+      <file>${PROJECT_ROOT}\Dice_T.m</file>
+      <file>${PROJECT_ROOT}\Document_T.m</file>
+      <file>${PROJECT_ROOT}\examples.m</file>
+      <file>${PROJECT_ROOT}\File_T.m</file>
+      <file>${PROJECT_ROOT}\FilesProgressMonitor.m</file>
+      <file>${PROJECT_ROOT}\ForceReply_T.m</file>
+      <file>${PROJECT_ROOT}\fullstructure2cellarray.m</file>
+      <file>${PROJECT_ROOT}\Game_T.m</file>
+      <file>${PROJECT_ROOT}\GameHighScore_T.m</file>
+      <file>${PROJECT_ROOT}\GetLastChatId.m</file>
+      <file>${PROJECT_ROOT}\GetLastMessage.m</file>
+      <file>${PROJECT_ROOT}\InlineKeyboardButton_T.m</file>
+      <file>${PROJECT_ROOT}\InlineKeyboardMarkup_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQuery_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQueryResultArticle_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQueryResultAudio_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQueryResultCachedAudio_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQueryResultCachedDocument_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQueryResultCachedGif_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQueryResultCachedMpeg4Gif_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQueryResultCachedPhoto_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQueryResultCachedSticker_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQueryResultCachedVideo_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQueryResultCachedVoice_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQueryResultContact_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQueryResultDocument_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQueryResultGame_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQueryResultGif_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQueryResultLocation_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQueryResultMpeg4Gif_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQueryResultPhoto_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQueryResultVenue_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQueryResultVideo_T.m</file>
+      <file>${PROJECT_ROOT}\InlineQueryResultVoice_T.m</file>
+      <file>${PROJECT_ROOT}\InputContactMessageContent_T.m</file>
+      <file>${PROJECT_ROOT}\InputLocationMessageContent_T.m</file>
+      <file>${PROJECT_ROOT}\InputMediaAnimation_T.m</file>
+      <file>${PROJECT_ROOT}\InputMediaAudio_T.m</file>
+      <file>${PROJECT_ROOT}\InputMediaDocument_T.m</file>
+      <file>${PROJECT_ROOT}\InputMediaPhoto_T.m</file>
+      <file>${PROJECT_ROOT}\InputMediaVideo_T.m</file>
+      <file>${PROJECT_ROOT}\InputTextMessageContent_T.m</file>
+      <file>${PROJECT_ROOT}\InputVenueMessageContent_T.m</file>
+      <file>${PROJECT_ROOT}\Invoice_T.m</file>
+      <file>${PROJECT_ROOT}\json_string_cheker.m</file>
+      <file>${PROJECT_ROOT}\jsonencode_1.m</file>
+      <file>${PROJECT_ROOT}\KeyboardButton_T.m</file>
+      <file>${PROJECT_ROOT}\KeyboardButtonPollType_T.m</file>
+      <file>${PROJECT_ROOT}\LabeledPrice_T.m</file>
+      <file>${PROJECT_ROOT}\Location_T.m</file>
+      <file>${PROJECT_ROOT}\LoginUrl_T.m</file>
+      <file>${PROJECT_ROOT}\MaskPosition_T.m</file>
+      <file>${PROJECT_ROOT}\MessageEntity_T.m</file>
+      <file>${PROJECT_ROOT}\PhotoSize_T.m</file>
+      <file>${PROJECT_ROOT}\pic.jpg</file>
+      <file>${PROJECT_ROOT}\Poll_T.m</file>
+      <file>${PROJECT_ROOT}\PollAnswer_T.m</file>
+      <file>${PROJECT_ROOT}\PollOption_T.m</file>
+      <file>${PROJECT_ROOT}\PreCheckoutQuery_T.m</file>
+      <file>${PROJECT_ROOT}\ReplyKeyboardMarkup_T.m</file>
+      <file>${PROJECT_ROOT}\ReplyKeyboardRemove_T.m</file>
+      <file>${PROJECT_ROOT}\ResponseParameters_T.m</file>
+      <file>${PROJECT_ROOT}\ShippingAddress_T.m</file>
+      <file>${PROJECT_ROOT}\ShippingOption_T.m</file>
+      <file>${PROJECT_ROOT}\ShippingQuery_T.m</file>
+      <file>${PROJECT_ROOT}\Sticker_T.m</file>
+      <file>${PROJECT_ROOT}\StickerSet_T.m</file>
+      <file>${PROJECT_ROOT}\strucuture2message.m</file>
+      <file>${PROJECT_ROOT}\SuccessfulPayment_T.m</file>
+      <file>${PROJECT_ROOT}\telegram_bot.m</file>
+      <file>${PROJECT_ROOT}\test_document.txt</file>
+      <file>${PROJECT_ROOT}\test_photo.jpg</file>
+      <file>${PROJECT_ROOT}\test_webhook.m</file>
+      <file>${PROJECT_ROOT}\User_T.m</file>
+      <file>${PROJECT_ROOT}\UserProfilePhotos_T.m</file>
+      <file>${PROJECT_ROOT}\Venue_T.m</file>
+      <file>${PROJECT_ROOT}\Video_T.m</file>
+      <file>${PROJECT_ROOT}\VideoNote_T.m</file>
+      <file>${PROJECT_ROOT}\Voice_T.m</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}" name="Telegram Bot Toolbox API.mltbx" optional="false">G:\My Drive\matlab_prog\telegram_bot_toolbox\Telegram Bot Toolbox API.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2021a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
