@@ -1,6 +1,8 @@
 classdef telegram_bot
     % TELEGRAMM_BOT - tool for working with telegram bots It can receive
-    % and send telegtamm chat messages. You can get a token of a bot as
+    % and send telegtamm chat messages. 
+    % Author Aleksei Kukin, 2021
+    % You can get a token of a bot as
     % follow: https://core.telegram.org/bots#botfather
     % see also https://core.telegram.org/bots
     % and https://core.telegram.org/bots/api
@@ -3763,3 +3765,6 @@ classdef telegram_bot
         end% function sendMFD
     end % private methods
 end % class
+
+
+  % Author Aleksei Kukin, 2021
