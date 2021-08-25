@@ -1,12 +1,11 @@
 classdef telegram_bot
     % TELEGRAMM_BOT - tool for working with telegram bots It can receive
-    % and send telegtamm chat messages. 
-    % Author Aleksei Kukin, 2021
-    % You can get a token of a bot as
+    % and send telegtamm chat messages. You can get a token of a bot as
     % follow: https://core.telegram.org/bots#botfather
     % see also https://core.telegram.org/bots
     % and https://core.telegram.org/bots/api
     % and https://core.telegram.org/bots/faq
+    % Author Aleksei Kukin, 2021
     %%
     properties
         token; % token of telegramm bot. see: https://core.telegram.org/bots#botfather
@@ -3735,7 +3734,7 @@ classdef telegram_bot
                 end %switch
                 varargin(1:2) = [];
             end % while isempty
-            % convert structure to cell array
+            % convert message to cell array
             if isstruct(message2send)
                 message2send = fullstructure2cellarray(message2send);
             else
@@ -3746,13 +3745,25 @@ classdef telegram_bot
             % set method of request POST
             method = matlab.net.http.RequestMethod.POST;
             % set mediatype of request.
-            type1 = matlab.net.http.MediaType(MessageMediaType);
+            type1 = matlab.net.http.MediaType(MessageMediaType,...
+                'charset','UTF-8');
             acceptField = matlab.net.http.field.AcceptField(type1);
             % concatenate headers
+            if string(MessageMediaType) == "application/json"
+                message2send = Cell2Structure(message2send);
+                content_type =...
+                    matlab.net.http.HeaderField('Content-Type',...
+                    [MessageMediaType  '; charset=UTF-8']);
+                header = [acceptField, content_type];
+                formProvider =...
+                    matlab.net.http.io.JSONProvider(message2send);
+            else
             header = [acceptField];%  contentTypeField];
-            % prepare message to sending
+                        % prepare message to sending
             formProvider =...
                 matlab.net.http.io.MultipartFormProvider(message2send{ : } );
+            end
+
             % prepate request
             request = matlab.net.http.RequestMessage(method, header, formProvider);
             % set options for request
@@ -3765,6 +3776,4 @@ classdef telegram_bot
         end% function sendMFD
     end % private methods
 end % class
-
-
-  % Author Aleksei Kukin, 2021
+% Author Aleksei Kukin, 2021

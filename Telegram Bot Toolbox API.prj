@@ -1,13 +1,14 @@
 <deployment-project plugin="plugin.toolbox" plugin-version="1.0">
-  <configuration file="G:\My Drive\matlab_prog\telegram_bot_toolbox\Telegram Bot Toolbox API.prj" location="G:\My Drive\matlab_prog\telegram_bot_toolbox" name="Telegram Bot Toolbox API" target="target.toolbox" target-name="Package Toolbox">
+  <configuration build-checksum="422948716" file="G:\My Drive\matlab_prog\telegram_bot_toolbox\Telegram Bot Toolbox API.prj" location="G:\My Drive\matlab_prog\telegram_bot_toolbox" name="Telegram Bot Toolbox API" target="target.toolbox" target-name="Package Toolbox">
     <param.appname>Telegram Bot Toolbox API</param.appname>
     <param.authnamewatermark>Aleksei Kukin</param.authnamewatermark>
     <param.email>aleksey.kukin@mail.huji.ac.il</param.email>
     <param.company>HUJI</param.company>
     <param.summary>The Telegram Bot Toolbox API created for developers keen on building bots for Telegram.</param.summary>
-    <param.description>Each bot is given a unique authentication token when it is created. The token looks something like 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11. You can learn about obtaining tokens and generating new ones in https://core.telegram.org/bots/api</param.description>
+    <param.description>Use this toolbox to build chatbot or informer. You can simply send any types of files or text messages in telegram, build bot to collect data from automated interview or control devices.
+Each bot is given a unique authentication token when it is created. The token looks something like 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11. You can learn about obtaining tokens and generating new ones in https://core.telegram.org/bots/api</param.description>
     <param.screenshot>${PROJECT_ROOT}\pic.jpg</param.screenshot>
-    <param.version>1.002</param.version>
+    <param.version>1.003</param.version>
     <param.output>${PROJECT_ROOT}\Telegram Bot Toolbox API.mltbx</param.output>
     <param.products.name />
     <param.products.id />
@@ -76,12 +77,14 @@
       <file>${PROJECT_ROOT}</file>
     </fileset.rootdir>
     <fileset.rootfiles>
+      <file>${PROJECT_ROOT}\.git</file>
       <file>${PROJECT_ROOT}\.gitattributes</file>
       <file>${PROJECT_ROOT}\.gitignore</file>
       <file>${PROJECT_ROOT}\Animation_T.m</file>
       <file>${PROJECT_ROOT}\Audio_T.m</file>
       <file>${PROJECT_ROOT}\BotCommand_T.m</file>
       <file>${PROJECT_ROOT}\CallbackQuery_T.m</file>
+      <file>${PROJECT_ROOT}\Cell2Structure.m</file>
       <file>${PROJECT_ROOT}\Chat_T.m</file>
       <file>${PROJECT_ROOT}\ChatMember_T.m</file>
       <file>${PROJECT_ROOT}\ChatPermissions_T.m</file>
@@ -138,9 +141,11 @@
       <file>${PROJECT_ROOT}\KeyboardButton_T.m</file>
       <file>${PROJECT_ROOT}\KeyboardButtonPollType_T.m</file>
       <file>${PROJECT_ROOT}\LabeledPrice_T.m</file>
+      <file>${PROJECT_ROOT}\LICENSE</file>
       <file>${PROJECT_ROOT}\Location_T.m</file>
       <file>${PROJECT_ROOT}\LoginUrl_T.m</file>
       <file>${PROJECT_ROOT}\MaskPosition_T.m</file>
+      <file>${PROJECT_ROOT}\matlab_telegram_bot_toolbox.html</file>
       <file>${PROJECT_ROOT}\MessageEntity_T.m</file>
       <file>${PROJECT_ROOT}\PhotoSize_T.m</file>
       <file>${PROJECT_ROOT}\pic.jpg</file>
@@ -148,8 +153,10 @@
       <file>${PROJECT_ROOT}\PollAnswer_T.m</file>
       <file>${PROJECT_ROOT}\PollOption_T.m</file>
       <file>${PROJECT_ROOT}\PreCheckoutQuery_T.m</file>
+      <file>${PROJECT_ROOT}\README.md</file>
       <file>${PROJECT_ROOT}\ReplyKeyboardMarkup_T.m</file>
       <file>${PROJECT_ROOT}\ReplyKeyboardRemove_T.m</file>
+      <file>${PROJECT_ROOT}\resources</file>
       <file>${PROJECT_ROOT}\ResponseParameters_T.m</file>
       <file>${PROJECT_ROOT}\ShippingAddress_T.m</file>
       <file>${PROJECT_ROOT}\ShippingOption_T.m</file>
