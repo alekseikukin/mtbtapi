@@ -7,7 +7,7 @@ Use this toolbox to build chatbot or informer. You can simply send any types of 
 Each bot is given a unique authentication token when it is created. The token looks something like 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11. You can learn about obtaining tokens and generating new ones in https://core.telegram.org/bots/api
 
 ## Usage
-See the [example](https://github.com/alekseikukin/mtbtapi/example.m) .
+See the [example1](examples.m) and  [example2](test_webhook.m).
 
 ## License
 Distributed under the MIT License. See [`LICENSE`](LICENSE) for more information.
